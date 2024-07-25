@@ -1,4 +1,4 @@
 SELECT T1.id,T2.id,T3.id
 FROM T1
-
+Inner join T2 on T1.c1=T2.c2
 Inner join T3 on T1.c1=T3.c2
